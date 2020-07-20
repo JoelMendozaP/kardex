@@ -4,7 +4,7 @@ class Conexion{
 
 	static public function conectar(){
 
-		$link = new PDO("mysql:host=127.0.0.1;dbname=kardex",
+		$link = new PDO("mysql:host=18.191.44.9;dbname=kardex",
 			            "root",
 			            "12345678");
 
